@@ -2,14 +2,14 @@
 
 \usepackage[hidelinks]{hyperref}
 
-\title{Rock paper scissors robot arm}
+\title{Rock paper scissors robot hand}
 \author{%
 \IEEEauthorblockN{Gage Grant}\IEEEauthorblockA{Science \& Engineering\\Manalapan High School\\Englishtown, NJ\\\href{mailto:426ggrant@frhsd.com}{426ggrant@frhsd.com}}\and
 \IEEEauthorblockN{Jason Donovan Katz}\IEEEauthorblockA{Science \& Engineering\\Manalapan High School\\Englishtown, NJ\\\href{mailto:426jkatz@frhsd.com}{426jkatz@frhsd.com}}
 }
 \date{June 16, 2026}
 
-\newcommand{\keywords}{rock, paper, scissors, robot arm, OpenCV, machine vision, cues}
+\newcommand{\keywords}{rock, paper, scissors, robot hand, OpenCV, machine vision, cues, machine learning, Raspberry Pi, Arduino, 3D printing, multi-armed bandit problem}
 
 \usepackage{hyperref}
 \makeatletter
@@ -24,9 +24,9 @@ pdfkeywords={\keywords}}}
 \maketitle 
 
 \begin{abstract}
-Rock Paper Scissors is one of the most recognizable, easy, and popular hand games out there. And while it is sometimes fun to play as a last resort in an incredibly boring situation, winning roughly 50\% of the time isn't good enough for us. We want to not only win, but crush the competition. Humans are terrible at being random, and we want to make a robotic hand to exploit this human weakness.
+Rock Paper Scissors is one of the most recognizable, easy, and popular hand games out there. And while it is sometimes fun to play as a last resort in an incredibly boring situation,  winning roughly 50\% of the time isn’t good enough for us. We want to not only win, but crush the competition. Humans are terrible at being random, and we want to make a robotic hand to exploit this human weakness.
 
-Our main goal for this semester project is to make a robotic hand that will beat humans at rock paper scissors. Using OpenCV and some basic electronics parts, we want to have a basic robotic hand that can recognize a pattern from a human in rock paper scissors, and exploit it to crush them, in the game.
+Over the course of this semester, we have created a robotic hand that will beat humans at rock paper scissors. By using OpenCV, the Multi Armed Bandit Problem, and some open sourcing from \url{rpscontest.com}, we were able to create a program that can recognize the human’s move and calculate the best strategy against it. And with 3D printing, some servos and basic electronic parts, we created a basic robotic hand that utilizes a raspberryPi and Arduino to make the move to crush the human, in the game.
 \end{abstract}
 
 \begin{IEEEkeywords}
